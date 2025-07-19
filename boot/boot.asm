@@ -10,9 +10,9 @@ start:
     mov ss, ax
     mov sp, 0x7C00
 
-    ; Load kernel (4 sectors starting at sector 2)
+    ; Load kernel (128 sectors starting at sector 2)
     mov ah, 0x02        ; BIOS read sectors
-    mov al, 4           ; Number of sectors to read
+    mov al, 128         ; Number of sectors to read
     mov ch, 0x00        ; Cylinder 0
     mov cl, 0x02        ; Start from sector 2
     mov dh, 0x00        ; Head 0
