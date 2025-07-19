@@ -1,0 +1,10 @@
+# Video related files 
+vid/* 
+vid 
+
+# Environment file 
+env.sh
+
+# Build files
+.build
+.build/*
