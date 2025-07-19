@@ -2,8 +2,9 @@
 vid/* 
 vid 
 
-# Environment file 
+# Scripts
 env.sh
+debug.sh
 
 # Build files
 .build
